@@ -1,0 +1,49 @@
+.LoginTextArea {
+    display: block;
+    resize: none;
+    margin: 4px 0 4px 0;
+    height: 20px;
+      
+}
+
+.LoginTextAreaError {
+    display: block;
+    resize: none;
+    height: 20px;
+    margin: 4px 0 4px 0;
+   
+}
+
+.errorContainer{
+   display: flex;
+    width: 400px;
+   justify-content: space-between;
+position: relative;
+}
+
+.errorOn {
+    display: block;
+    height: 20px;
+    margin: auto 0;
+    background-color: rgba(206, 22, 22, 0.452);
+    border-radius: 4px;
+    padding-bottom: 5px;
+    width: 180px;
+    text-align: center;
+    transition: linear .4s;
+      
+}
+.errorOf {
+    padding-bottom: 5px;
+    display: none;
+    height: 20px;
+   margin: auto 0;
+    width: 180px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    
+}
+
+.errorArea {
+    border: 1px solid red;
+}

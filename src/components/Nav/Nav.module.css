@@ -1,0 +1,24 @@
+.nav {
+  height: 500px;
+grid-area: n;
+  background-color: rgb(47, 148, 243);
+  padding: 20px 0 0 20px;
+}
+.item {
+    margin-bottom: 10px;
+}
+.item a {
+    color: white;
+  text-decoration: none;
+  
+}
+.item a:hover {
+    color: red;
+    transition: linear 0.4s;
+    cursor: pointer;
+}
+
+.item a.activeLink {
+   color: green;
+   transition: linear 0s;
+}

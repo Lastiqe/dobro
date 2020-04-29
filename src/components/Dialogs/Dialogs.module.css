@@ -1,0 +1,61 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    border: solid red 1px;
+    box-sizing: border-box;
+    max-height: 100vh;
+    height: 100%;
+
+}
+
+.messagesArea {
+    display: grid;
+    grid-template-areas: 
+  "t t"
+  'ta b';
+    grid-template-rows: 6fr 3fr;
+  grid-template-columns: 11fr 1fr;
+    border: solid red 1px;
+    box-sizing: border-box;
+    
+}
+.messages {
+    grid-area: t;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+
+.dialogs_item {
+    display: block;
+   border: 1px green solid;
+   height: 200px;
+   box-sizing: border-box;
+    
+}
+.mySide {
+    display:block;
+    color: black;
+    text-align: right;
+    
+}
+.side {
+    display:block;
+    color: black;
+    text-align: left;
+    box-sizing: border-box;
+   
+}
+.postBtn {
+    grid-area: b;
+    height: 30px;
+    
+    background-color: #fff;
+   
+}
+.textArea {
+    grid-area: ta;
+    height: 40px;
+   box-sizing: border-box;
+    resize: none;
+    border: black 1px solid;
+}

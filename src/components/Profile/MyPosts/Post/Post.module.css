@@ -1,0 +1,16 @@
+.item {
+    display: flex;
+    background-color: #aeaeae;
+    width: 150px;
+    height: 40px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+    
+}
+
+.like {
+}
+
+.msg {
+}
